@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 1</title>
+    <style>
+        body {
+            background: url(https://i.pinimg.com/originals/65/c1/8c/65c18c307f53ef2c40bb66a9ce704231.png);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: repeat;
+        }
+
+        .Content {
+            margin: 10px;
+        }
+
+        .Title {
+            text-align: center;
+            border: black solid;
+            box-shadow: 2px 2px 2px black;
+            color: white;
+            background-color: black;
+            margin: 10px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .Menu {
+            margin: 10px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            border: black solid;
+            box-shadow: 2px 2px 2px black;
+            padding: 10px;
+            background-color: black;
+        }
+
+        .Menu a {
+            margin: 5px;
+            color: wheat;
+        }
+
+        p {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul a:link {
+            color: red;
+        }
+
+        .Content a:hover {
+            color: red;
+            font-weight: bold;
+            font-family: cursive;
+        }
+
+        ul a:Visited {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        h3 {
+            border-bottom: red solid;
+        }
+
+        .ul a {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        ol li {
+
+            border-bottom: yellow dotted;
+        }
+
+        [title="image1"] {
+            border: red solid;
+        }
+        
+        .rightfloat {
+            width: 200px;
+            float: right;
+            height: 200px;
+            overflow: hidden;   
+            margin: 5px;
+        }
+        .ParagraphContents{
+            border: black solid;
+            box-shadow: 2px 2px 2px black;
+            background-color: lightgray;
+            padding: 5px;
+        }
+        ol p{
+            border: black solid;
+            box-shadow: 2px 2px 2px black;
+            background-color: rgb(211, 211, 211);
+            padding: 5px; 
+        }
+        ol li{
+            color: darkgrey;
+        }
+        h3,h4{
+            color: darkmagenta
+        }
+        .Content3>.ParagraphContents{
+            padding: 5px;
+        }
+        .FloatCenter{
+            width: 500px;
+            height: 500px;
+            margin-top:0;
+            margin-right:auto;
+            margin-bottom:10px;
+            margin-left:auto;
+        }
+        .HistoryImage{
+            width: 400px;
+            height: 400px;  
+            border: black solid;
+            box-shadow: 2px 2px 2px black;
+            
+        }
+        .image4{
+            width: 300px;
+            height: 150px;
+            float: left;
+            margin: 2px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Title">
+        <h1>All About Machine Learning</h1>
+    </div>
+    <div class="Menu">
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </div>
+    <div class="Content">
+        <div class="Content1">
+            <article id="Home">
+                <h2>Home</h2>
+                <section>
+                    <h3>Back-ground Informaton on Machine Learning</h3>
+                    <div class="ParagraphContents">
+                        <p>
+                            Machine Learning is a type of Artificial Creation, via humans, of human
+                            intelligence. The concept of machine
+                            Learning implies a thought-process where a machine can learn, reason, plan, percieve or
+                            process natural Language.
+                            These concepts allow any AI to bring many socio-economic advantages, while also bringing in
+                            many ethical issues.
+                        </p><br>
+                        <p>
+                            Machine Learning is seen as a subset of Artificial intelligence, and contains
+                            algorithms that help
+                            to build a mathematical model for some sample data. The machine then uses the given data and
+                            the algorithm
+                            to make predictions/decisions about other event without explicitly being told do so.
+                            Machine Learning is very
+                            closely related to computational statistics, in which, a machine proceeds about making a
+                            prediction from a
+                            particular given set of data.
+                        </p><br>
+                        <div class="FloatCenter">
+                            <img src="images/image1.jpg" alt="AI" width="500" height="500">
+                        </div>
+                    </div>
+                </section><br>
+                <section>
+                    <h3>History of Machine Learning</h3>
+                    <div class="ParagraphContents">
+                        <p>
+                            The term Machine  Learning was first recognized by a person named Author Samuel in 1959. He was an
+                            American IBMer in the
+                            field of computer Gaming and Artificial intelligence. A book developed for particularly for
+                            Machine Learning at that time
+                            were the <i><u>Nilssons book on Machine Learning.</u></i> These books mainly dealt with the
+                            concepts of patterns of classification.
+                            These new concepts gave rise to new interests in individuals, which continued into the
+                            1970's. During 1981 a report
+                            was published, describing on how to use such patterns and strategies so that a neural network
+                            learns to recognize 40
+                            characters, which are comprimised of: 26 letters, 10 digits, 4 special symbol.
+                        </p><br>
+                        <p>
+                            Later on, Tom M. Mitchell provided a more generalized quote for the algorithms comprimised
+                            in Machine Learning.
+                            He quoted, <i>"A computer program is said to learn from experience E with respect to some
+                                class of tasks T and
+                                performance measure P if its performance at tasks in T, as measured by P, improves with
+                                experience E."</i> This new
+                            definition of the algorithms in Machine Learning helped to further grasp the core
+                            understanding of the algotithms
+                            involved in Machine Learning, rather than simply understanding it in cognitive terms.
+                            Following this definition was
+                            <u>Alan Turings propsal</u> paper known as <i>"Computing Machinery And Intelligence".</i> In
+                            this article the questions that
+                            <i>"Can Machines Think?"</i> was modified by the question <i>"Can machines do what we can
+                                do?".</i>This question further lead into the understanding of Machine Learning as it is
+                            now. To learn more about <u>Alan Turing</u> Click on the image below.
+                        </p><br>
+                        <div calss="HistoryImage">
+                            <a href="https://en.wikipedia.org/wiki/Alan_Turing"><img src="images/image2.jpg" alt="Alan Turing" width="400" height="400"></a>
+                        </div>
+                    </div>
+                </section><br>
+                <section>
+                    <h3>Some Careers Involving Machine Learning</h3>
+                    <div class="ParagraphContents">
+                        <div class="rightfloat">
+                            <img src="images/image3.jpg" alt="Building a carrer" width="200" height="200">
+                        </div>
+                        <ul>
+                            <li><a
+                                    href="https://resources.workable.com/machine-learning-engineer-job-description#:~:text=Machine%20Learning%20Engineer%20responsibilities%20include,Implementing%20appropriate%20ML%20algorithms">Machine
+                                    Learning Engineer:</a></li><br>
+                            <li><a href="https://resources.workable.com/data-scientist-job-description">Data
+                                    Scientist</a></li><br>
+                            <li><a
+                                    href="https://resources.workable.com/natural-language-processing-engineer-job-description">NLP
+                                    Scientist</a></li><br>
+                            <li><a href="https://resources.workable.com/software-developer-job-description">Software
+                                    Development/Engineer(AI/ML)</a></li><br>
+                            <li><a href="https://uxplanet.org/user-centered-design-process-and-benefits-fd9e431eb5a9">Human-Cenetered
+                                    Machine Learning Designer</a></li><br>
+                        </ul>
+                    </div>
+                </section><br>
+                <section>
+                    <h3>Why Should I Study Machine Learning</h3>
+                    <div class="ParapgraphContents">
+                        <ol>
+                            <strong>
+                                <li>Better Salary</li>
+                            </strong>
+                            <p>
+                                The Top of world class machine-learning expert can earn an up to an amount related to that of a top NFL
+                                Quater-back propect.
+                                According to Simply <i>Hired.com</i>, the average Machine Learning Engineer makes around
+                                $142,000 cad and can earn
+                                up to $195, 752 cad per year
+                            </p><br>
+                            <strong>
+                                <li>Machine Learning Jobs Are On the Rise</li>
+                            </strong>
+                            <p>
+                                Currently with the growing understanding of Maine Learning and its usages, many top-tech
+                                companies and search of
+                                people who can operate with the many Machine-Learnign Algorithms to build a software
+                                that can perform intellectual
+                                decisions. The Job market for Machine Learning is not just hot, <strong>but it's sizzling</strong>.
+                            </p><br>
+                            <p>
+                                According to a popular site, known as Indeed (A popular job portal), the number of open
+                                Machine Learning Jobs have
+                                had a steep rise from the year 2014 to the year 2016 (from 60 job postings per million
+                                to more than 100). These
+                                numbers continue to rise with a great pace with a value of 150 postings per million by
+                                the end of 2016 itself. Indeed
+                                job trends also reveal that the number Machine Learning Job Postings outstrip the number
+                                of searches for Machine Learning
+                                jobs (100 million searches vs. 150 postings).
+                            </p><br>
+                            <strong>
+                                <li>Machine Learning Helps to Detect Fraud</li>
+                            </strong>
+                            <p>
+                                The convience of online Payment has left left both customers and business staggered.
+                                However, transmitting Payment
+                                online can be real dangerous without the proper security. There are many Cybercriminals
+                                online, that, given
+                                Opportunity will try to execute many fraudulent attacks. However, Machine Learning makes
+                                it more effiecient to detect
+                                these attacks and make a safe Payment online.
+                            </p><br>
+                            <p>
+                                For Example, PayPal, a widely used safe transaction method, uses the concept of Machine
+                                Learning Algorithms to expand its
+                                knowlege about online transactions and seperate suspicious transaction from the safe
+                                ones. Machine Learning assists in
+                                these safe transactions by inspecting specific attributes among the users transactions
+                                data and develops the bacsiscs standards
+                                of a safe transaction. Therefore, Machine Learning algorithms can help prevent malicious
+                                transactions from taking place before the
+                                user can complete them.
+                            </p><br>
+                        </ol>
+                    </div>
+                </section>
+                <section>
+                    <h3>Conclusion</h3>
+                    <div class="ParagraphContents">
+                        <p>
+                            Now the questions arises how can I study Machine Learning and a basis understanding on it.
+                        </p><br>
+                        <p>
+                            Lucky for you, here on this site we are here to help build new Machine Learning Engineers
+                            for you if you would
+                            like get yourself started on your Journey of Machine Learning here are some links who can
+                            use to get a base
+                            understanding of Machine Learning.
+                        </p>
+                        <ul>
+                            <li><a
+                                    href="https://www.simplivlearning.com/machinelearning/learn-artificial-intelligence-for-beginners?ref=hackernoon.com">Learn
+                                    Artificial Intelligence for Beginners</a></li><br>
+                            <li><a
+                                    href="https://www.simplivlearning.com/machinelearning/machine-learning-in-the-cloud-with-azure-machine-learning?ref=hackernoon.com">Machine
+                                    Learning In The Cloud With Azure Machine Learning</a></li><br>
+                            <li><a
+                                    href="https://www.simplivlearning.com/machinelearning/machine-learning-basics-regression-modeling-in-python?ref=hackernoon.com">Machine
+                                    Learning Python: Regression Modeling</a></li><br>
+                            <li><a href="https://www.youtube.com/watch?v=mHf_jLCkqAo" target="_blank">Machine Learning
+                                    as a Cocept</a></li><br>
+                            <li><a
+                                    href="https://www.simplivlearning.com/machinelearning/practical-deep-learning-image-search-engine?ref=hackernoon.com">Practical
+                                    Deep Learning: Image Search Engine</a></li><br>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </div>
+        <div class="Content2">
+            <article id="About">
+                <h2>About</h2>
+                <Section>
+                    <div class="ParagraphContents">
+                        <div class="image4">
+                            <img src="images/image4.png" alt="Ontario Tech University" title="About Image" width="300" height="150">
+                        </div>
+                        <p>
+                            I am a second-year software engineering at Ontario tech University. I am really intriqued
+                            with the concept of
+                            Machine Learning and Articial Intelligence and always ponder on the fact of as to <i>What really
+                                is the limit of a machine.
+                            </i>How far can we can we really get with Machines and
+                            what kind of world can we create for man kind with these machines. I understand that
+                            the concept of Machine Learning can be challenging to understand, which is why I have
+                            designed this site to start students
+                            from taking their first steps to their journey of AI. The included links are links to some
+                            great videos and books to help
+                            grasp the basis of Machine learning. I believe a good motivation is the key to getting someone
+                            intrigued with the topic.
+                            I beleive AI is currently in its birth stages and could help to make the world a better and
+                            safer place. For example,
+                            with the use of AI,surgeries could be performed with more precision, and, hence, lowering
+                            the risk of fatal
+                            risks to the bodies of patients. Also, like mentioned, Machine Learning and AI will also
+                            help to eninforce the law
+                            in a better way. I beleive that AI is a great tool is shaping the worlds future.
+                        </p>
+                    </div>
+                </Section>
+            </article>
+        </div>
+        <div class="Content3">
+            <article id="Contact">
+                <h2>Contact</h2>
+                <Section>
+                    <div class="ParagraphContents">
+                        <div class="ParagraphOneBlock">
+                            <p><strong>Date Created: </strong> <time><i><u>September 24, 2020</u></i></time></p><br>
+                        </div>
+                        <div class="ParagraphTwoBlock">
+                            <p><strong>Name: </strong><i><u>Aryan Singh</u></i></p><br>
+                            <p><strong>Role: </strong><i><u>Author of Article</u></i></p><br>
+                            <p><strong>Email: </strong><a href="mailto: aryan.singh@ontariotechu.net">aryan.singh@ontariotechu.net</a></p>
+                        </div>
+                    </div>
+                </Section>
+            </article>
+        </div>
+    </div>
+    <div class="Footer">
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+</body>
+
+</html>
